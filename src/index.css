@@ -189,6 +189,7 @@ code {
 
   .row-buttons{
     min-height: 12.5vh;
+    font-size: 22px;
   }
 
   .top-row{
