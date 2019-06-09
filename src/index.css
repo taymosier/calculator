@@ -281,8 +281,13 @@ code {
 
 @media (min-width: 1200px){
   .calculator{
-    margin: 10vh 5vw;
-    min-height: 90vh;
+    margin: 10vh 16.67vw;
+    max-width: 66.68vw;
+    min-height: 80vh;
     padding: 0;
+  }
+
+  .row-buttons{
+    min-height: 12vh;
   }
 }
