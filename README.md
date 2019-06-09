@@ -35,6 +35,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
                         and <Col /> container Component
 
 #	Technical Reasoning
+  Since this is a static, single page application, I chose to host it on Github Pages because it is free and simple to host. 
+
   While the current inputHandler function only takes in a button state object as a parameter, it could be refactored to take in an expression, parse it, and handle that input with
   minimal refactoring to the rest of the function logic.
 
@@ -79,3 +81,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   I made several trade offs in my code for the sake of keeping the logic implementation straightforward and readable. The most intentional performance trade off I made was storing values as strings. This method, combined with updating the entire expression state object each time a value changed, involves a lot of parsing of strings to floats and vice-versa.
 
   I also made the trade off of performing very minimal testing. If there are any errors in my input logic, the functions will simply return null and no changes will be reflected in the calculator's UI. If I were to make this app more substantial, I would add try/catch statements to handle irregular or unexpected input.
+
+  Additionally, I would dynamically change the font size of the display based on the number of digits if I were to invest more effort into this app. This would require accounting for the current screen size as well as determining how to scale the font-size in relation to the number of digits on the screen. This could be accomplished by checking the concatenated expression at the end of the inputHandler function and passing the length of that value to the CalculatorDisplay component to check and set it on any state updates.
