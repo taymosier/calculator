@@ -182,7 +182,7 @@ code {
   }
 
   .container-result {
-    font-size: 12vh;
+    font-size: 10vh;
     padding-top: 2.25vh;
     line-height: 12vh;
   }
@@ -209,7 +209,7 @@ code {
   }
 
   .container-result {
-    font-size: 15vh;
+    font-size: 10vh;
     font-weight: 100;
     line-height: 15vh;
     padding-top: 4vh;
@@ -237,7 +237,7 @@ code {
   }
 
   .container-result {
-    font-size: 15vh;
+    font-size: 12.5vh;
     font-weight: 100;
     line-height: 15vh;
     padding-top: 4vh;
