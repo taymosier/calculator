@@ -189,7 +189,10 @@ code {
 
   .row-buttons{
     min-height: 12.5vh;
-    font-size: 22px;
+  }
+
+  .row-buttons .container-button .btn {
+    font-size: 6.5vw;
   }
 
   .top-row{
@@ -216,6 +219,10 @@ code {
     min-height: 10vh;
   }
 
+  .row-buttons .container-button .btn {
+    font-size: 5vw;
+  }
+
   .top-row{
     min-height: 20vh;
   }
@@ -240,6 +247,10 @@ code {
     min-height: 10vh;
   }
 
+  .row-buttons .container-button .btn {
+    font-size: 5.5vw;
+  }
+
   .top-row{
     min-height: 20vh;
   }
@@ -260,6 +271,10 @@ code {
 
   .row-buttons{
     min-height: 13vh;
+  }
+
+  .row-buttons .container-button .btn {
+    font-size: 5.25vw;
   }
 
   .top-row{
